@@ -1,14 +1,15 @@
 import { Link } from "react-router-dom";
 
 function Header(props) {
-  //inline style for the nav tag
+
   const navStyle = {
     display: "flex",
     justifyContent: "space-around",
-    border: "3px solid black",
+    border: "3px solid ",
     padding: "8px",
     width: "90%",
     margin: "auto",
+
   };
 
   return (
